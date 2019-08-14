@@ -1,58 +1,51 @@
 .footer-nav {
-    height: 44vh;
-    background: rgb(229,229,229); 
-    ul {
-        list-style-type: none;
+    background: #e5e5e5;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    .col-md-6 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    p {
+      font-family: AvenirNextLTW01-Regular, Arial;
+      font-size: 12px;
+      margin-bottom: 40px;
+      font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+      color: #666666;
     }
     a {
-        color: #1D5799;
-        font-size: 11px;
-        font-weight: 700;
-
-        &:hover {
-            background: transparent;
-        }
+      font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+      font-size: 12px;
+      color: #1d5799;
+      padding-left: 6px;
+      padding-right: 6px;
+      display: inline !important;
+      padding-left: 0px !important;
     }
-
-    &__left {
-        padding-top: 5vh;
-        margin-left: 10%;
-        ul {
-            line-height: 9vh;
-        }
+  
+    .mycontainer {
+      width: 80%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
     }
-
-    &__right {
-        float: right;
-        width: 100%;
-        margin-top: -17vh;
-
-        ul {
-            display: inline-flex;
-
-            li {
-                margin: 5px;
-                border-right: 1px solid gray;
-                padding-right: 10px;
-                
-            }
-        }
+  
+    @media (max-width: 1000px) {
+      .mycontainer {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        width: 100% !important;
+      }
     }
-}
-@media (max-width: 769px) {
-    .footer-nav{
-        display: grid;
-        &__left {
-            margin-left: 0;
-            max-width: 100%;
-        }
-        &__right {
-            width: max-content; 
-            margin-top: 0;
-            max-width: 100%;
-            ul {
-                display: -webkit-inline-box;
-            }
-        }
+  }
+  
+  @media (max-width: 770px) {
+    .legalfooter {
+      p {
+        margin-top: 13px !important;
+        margin-bottom: 0px !important;
+      }
     }
-}
+  }
+  

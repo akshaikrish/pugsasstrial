@@ -1,24 +1,7 @@
-.savings {
-    align-items: center;
+.rect {
+    border: 2px  solid #333;
+    padding: 10px;
+    margin: auto;
     color: #333;
-    display: inline-block;
-    a {
-        font-size: 25px;
-        padding: 15px;
-        font-weight: 700;
-        border: 2px solid #333;
-        // cursor: pointer;
-    }
-    a:hover {
-        color: #333;
-    }
-    h1 {
-        font-size: 50px;
-    }
-
-    p {
-        margin-top: 5vh;
-        margin-bottom: 10vh;
-        font-size: 30px;
-    }
+    font-weight: 700;
 }

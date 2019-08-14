@@ -1,4 +1,6 @@
 .list {
+    max-width: 100%;
+    margin: auto;
     height: auto;
     margin-top: 33vh;
     background: rgb(242,242,242);
@@ -10,14 +12,15 @@
         font-weight: bold;
         padding-left: 11vw;
         li span {
-            font-weight: 300;
+            font-size: 15px;
+            font-weight: 400;
         }
     }
      
     
 }
 .tNc {
-    padding-left: 11vw;
+    margin: 10%;
     margin-top: 18vh;
     padding-top: 3vh;
 
@@ -31,5 +34,11 @@
         a:hover {
             background: transparent;
         }
+    }
+}
+@media (max-width : 769px) {
+    ol {
+        background: #ffffff;
+        
     }
 }

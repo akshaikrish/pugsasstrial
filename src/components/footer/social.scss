@@ -1,9 +1,11 @@
 #lab_social_icon_footer{
   overflow: hidden;
   padding: 40px 0;
+  margin: auto;
+  max-width: 100%;
   background-color: rgb(229,229,229);
   .row {
-    max-width: 1000px;
+    max-width: 100%;
       ul {
           display: flex;
           list-style-type: none;
@@ -28,7 +30,7 @@
                   padding: 0px;
                   display: inline-flex;
                   li {
-                      width: 3vw;
+                      width: auto;
                   }
               }
           }

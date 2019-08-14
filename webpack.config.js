@@ -3,10 +3,11 @@ const path = require("path");
 // const stickynavpageJS = path.resolve(__dirname, "src/pages/stickynavpage");
 // const accordionpageJS = path.resolve(__dirname, "src/pages/accordionpage");
 const capitalpageJS = path.resolve(__dirname, "src/pages/capital-group");
-
+const testpageJS = path.resolve(__dirname, "src/pages/testPage");
 module.exports = {
   entry: {
-    capitalpage : capitalpageJS
+    capitalpage : capitalpageJS,
+    testPage : test[ageJS]
     // homepage: homepageJS,
     // stickynavpage: stickynavpageJS,
     // accordionpage: accordionpageJS

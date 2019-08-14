@@ -7,6 +7,12 @@
     }
     .items{
         margin-right: 30px;
+        ul {
+            padding-top: 30px;
+            .nav-link{
+                color: rgb(0, 0,0);
+            }
+        }
     }
     
     #navbarTogglerDemo01{

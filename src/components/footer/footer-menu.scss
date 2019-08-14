@@ -33,51 +33,48 @@
                 }
                 }
             }
-        }
+        } 
         
     }
 }
-.fa-caret-right{
-    color: #ffffff;
-    transform: rotate(0deg);
-    transition: all .4s ease;
-    .active {
-        transform: rotate(90deg);
-
+.accordion {
+    .card-header{
+      padding: 0!important;
+      background-color: rgb(153, 153, 153);
+      button{
+        text-decoration: none;
+        color: white;
+        float: left;
+        padding: 15px;      
+      }
     }
-}  
-
-.panel {
-    border-bottom: 1px solid rgb(242,242,242);
-    &__heading {
-        margin-left: 40px;
-        a {
-            color: #ffffff;
-        }
-
-    }
-    &__body {
-        border: 0 !important;
-        background: rgb(102,102,102);
-        ul {
-            list-style-type: none;
-            a {
-                color: #ffffff;
-            }
-        }
-    }
-    &__title {
-        font-size: 15px;
-        margin: 0.5rem;
-        a {
-            text-decoration: none;
+    .collapse{
+      background-color: rgb(94, 93, 93);
+      ul{
+          background: #5e5d5d;
+        li{
+          list-style-type: none;
+          a{
+            color: white;
+          }
         }
       }
-}
-
   
+    }
+      .btn.btn-link{
+          &::before {
+            content: "\25BC ";
+            font-weight: bolder;
+          }
+        }
   
-
+        .btn.btn-link.collapsed{
+            &::before{
+              content: "\25BA ";
+              font-weight: bolder;
+            }
+        }
+  }
   
   
 

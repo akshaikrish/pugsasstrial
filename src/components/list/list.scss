@@ -1,0 +1,35 @@
+.list {
+    height: auto;
+    margin-top: 33vh;
+    background: rgb(242,242,242);
+    font-size: 21px;
+    color: rgb(102, 102, 102);
+    ol {
+        
+        line-height: 2;
+        font-weight: bold;
+        padding-left: 11vw;
+        li span {
+            font-weight: 300;
+        }
+    }
+     
+    
+}
+.tNc {
+    padding-left: 11vw;
+    margin-top: 18vh;
+    padding-top: 3vh;
+
+    .p1{
+        font-weight: bold;   
+        a {
+            color: rgb(29, 87, 153);
+            font-weight: 800;
+            font-size: 20px;
+        }
+        a:hover {
+            background: transparent;
+        }
+    }
+}

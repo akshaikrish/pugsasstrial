@@ -1,0 +1,38 @@
+#lab_social_icon_footer{
+  overflow: hidden;
+  padding: 40px 0;
+  background-color: rgb(229,229,229);
+  .row {
+    max-width: 1000px;
+      ul {
+          display: flex;
+          list-style-type: none;
+          li {
+              height: 25px; 
+              width: auto;
+              font-size: 14px;
+              font-weight: 700;
+              color: #666666; 
+              padding-left: 10px;
+              padding-right: 10px;
+
+              a {
+                  font-size: 11px;
+                  color: #1D5799;
+                  &:hover {
+                    background: transparent;
+                  }
+              }
+              ul {
+                  margin-left: 2vw;
+                  padding: 0px;
+                  display: inline-flex;
+                  li {
+                      width: 3vw;
+                  }
+              }
+          }
+      }
+
+  }
+}  

@@ -1,0 +1,55 @@
+nav.navbar.navbar-expand-md.main-nav.navbar-light
+    a.navbar-brand(href='#') 
+        img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/logos/cg-af-primary-rgb-207x95.png', width='auto', height='95', alt='')   
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+    #navbarTogglerDemo01.collapse.navbar-collapse
+        .items
+            .nav_utility.showMob.hideDesk
+                .col-lg-4.col-md-4
+                    ul
+                        li
+                            a(href="") Other sites: Individual Investors 
+                .col-lg-7.left.col-md-7
+                    ul
+                        li
+                            a(href='#') Contact Us 
+                        li
+                            a(href='#') Preference
+                        li.login
+                            a(href='#') Login
+            form.search
+                input(type='search', placeholder='Enter a search term or ticker', aria-label='Search',style="font-style:italic; font-size:15px;")
+                //- button.search__btn(type='submit')
+                img.search__btn__img(src="https://www.americanfunds.com/apps/nextgen/docroot/images/new-assets/search.png", alt="search") 
+            ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+                li.nav-item
+                    a.nav-link(href='#') MY ACCOUNTS 
+                li.nav-item
+                    a.nav-link(href='#') INVESTMENTS
+                li.nav-item
+                    a.nav-link(href='#') INSIGHTS
+                li.nav-item
+                    a.nav-link(href='#') PRODUCTS
+                li.nav-item
+                    a.nav-link(href='#') PLANNING
+                li.nav-item
+                    a.nav-link(href='#') SERVICES & SUPPORT
+                li.nav-item
+                    a.nav-link(href='#') FORMS
+            nav(aria-label='breadcrumb')
+                ol.breadcrumb(style = "height :93px; background : #FFFFFF")
+                    li.breadcrumb-item
+                        a(style="color: #1D5799;  font-size: 18px;")(href='#') Planning
+                    li.breadcrumb-item.active(aria-current='page',style="font-size: 18px;") College Savings
+
+
+
+
+//- breadcrumb 
+.hideMob.showDesk
+    nav(aria-label='breadcrumb')
+        ol.breadcrumb(style = "height :93px; background : #FFFFFF")
+            li.breadcrumb-item
+                a(style="color: #1D5799; padding-left: 11rem; font-size: 18px;")(href='#') Planning
+            li.breadcrumb-item.active(aria-current='page',style="font-size: 18px;") College Savings

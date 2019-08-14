@@ -1,0 +1,43 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../components/utility-bar/utility-bar.scss";
+@import "../../components/cg-nav/cg-nav.scss";
+@import "../../components/float-icon/fi.scss";
+@import "../../components/herobanner/herobanner.scss";
+@import "../../components/af-nav/afnav.scss";
+@import "../../components/learn/learn.scss";
+@import "../../components/carousel/carousel.scss";
+@import "../../components/plan/plan.scss";
+@import "../../components/choose/choose.scss";
+@import "../../components/advisor/advisor.scss";
+@import "../../components/list/list.scss";
+@import "../../components/footer/social.scss";
+@import "../../components/footer/footer-menu.scss";
+@import "../../components/footer/footer-nav.scss";
+
+.setWidth {
+    margin: auto;
+}
+
+@media (min-width : 1200px){
+    .setWidth{
+        max-width: 1706px;
+        
+    }
+}
+@media (min-width:767px){
+    .hideDesk{
+        display: none!important;
+    }
+    .showDesk{
+        display: block!important;
+    }
+}
+
+@media (max-width: 767px){
+    .hideMob{
+        display: none!important;
+    }
+    .showMob{
+        display: block!important;
+    }
+}

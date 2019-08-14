@@ -1,0 +1,54 @@
+.col {
+  padding: 0px 0px 0px 0px !important;
+  a{
+    font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
+  }
+  &__left{ 
+    max-height: 135px;
+    background: #00AEAA;
+    &:hover {
+      background: #007b78;
+    }
+  }
+  &__middle{ 
+    max-height: 135px;
+    background: #00294B;
+    &:hover {
+      background: #000d18;
+    }
+  }
+  &__right{ 
+    max-height: 135px;
+    background: #0099E2;
+    &:hover {
+      background: #0c609c;
+    }
+  }
+}
+.new{
+  text-align: center;
+  .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .subtitle{
+    font-size: 13px;
+    color: #fff !important;
+  }
+}
+
+.row {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;  
+}
+
+
+    
+    
+    
+    
+    
+    

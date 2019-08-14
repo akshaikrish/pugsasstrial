@@ -1,0 +1,48 @@
+
+.plan {
+    overflow: hidden;
+    height: 800px;
+    margin-top: 10vh;
+    padding: 16px;
+
+    &__fatherson {
+        width: 70vw;
+    }
+
+    .col-lg-5 {
+        float: right;
+        top: -66vh;
+        right: -6vw;
+    }
+
+    .col-sm-3 {
+        display: grid;
+
+        img {
+            margin-bottom: 10px;
+            width: 5vw;
+        }
+
+        p {
+            font-size: 20px;
+            width: 19vw;
+            font-weight: 300;
+        }
+        a {
+            color: #0099E2;
+            font-weight: 900;
+            font-size: 21px;
+        }
+    }
+}
+
+.d-lg-none {
+    text-align: left;
+    display: grid;
+    // margin-left: -144px;
+    .col-sm-6 {
+        display: grid;
+        margin-top: 20px;
+        width: 700px;
+    }
+}  

@@ -1,0 +1,37 @@
+extends ../../layouts/defaultLayout.pug
+
+
+block pageStyles
+    link(rel="stylesheet", href="capital.css")
+    link(rel="icon" href="http://example.com/favicon.png")
+    meta(name="description",content="Get an education in college planning and saving with information and tips to help fund your child’s future goals. ")
+
+block pageTitle
+    title College Savings | American Funds
+
+block content
+    header
+        include ../../components/utility-bar/utility-bar.pug
+        include ../../components/cg-nav/cg-nav.pug
+    .main
+        include ../../components/herobanner/herobanner.pug
+        include ../../components/af-nav/afnav.pug
+        include ../../components/float-icon/fi.pug
+        include ../../components/learn/learn.pug
+        include ../../components/carousel/carousel.pug
+        include ../../components/plan/plan.pug
+        include ../../components/choose/choose.pug
+        include ../../components/advisor/advisor.pug
+        include ../../components/list/list.pug
+        include ../../components/footer/social-footer.pug
+        include ../../components/footer/footer-menu.pug
+        include ../../components/footer/footer-nav.pug
+        //- div(style="height: 1000px")
+
+block pageScripts
+    //- script(src="capital.js")
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
+
+

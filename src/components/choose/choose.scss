@@ -1,0 +1,65 @@
+#choose {
+  color: #ffffff;
+  text-align: center;
+  float: none;
+  .col-sm-6 {
+    width: 54%;
+  }
+  h1 {
+    font-family: "AvenirNextLTCom-Demi";
+    font-size: 26px;
+  }
+  p {
+    font-size: 19px;
+    margin: 4%;
+    padding-bottom: 1rem;
+  }
+  
+}
+.kid-raise {
+  contain: content;
+  // padding-left: 30px;
+  // padding-right: 42px;
+  article {
+    height: 537px;
+    padding-top: 30px; 
+    text-align: center;
+    background: #ffffff;
+    // border-bottom: 8px solid whitesmoke;
+    
+
+    h1 {
+      font-family: "AvenirNextLTCom-Demi";
+      font-size: 26px;
+    }
+    p {
+      font-size: 19px;
+      margin: 4%;
+      border-bottom: 1px solid rgb(229,229,229);
+      padding-bottom: 1rem;
+    }
+  }  
+  }
+  .shadow {
+    -webkit-box-shadow: 0px 3px 5px 6px rgb(161, 151, 151);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0px 3px 5px 6px rgb(161, 151, 151);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0px 3px 5px 6px rgb(161, 151, 151);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
+  @media (max-width : 990px){
+      #choose {
+        float: none;
+        margin-top: -190px;
+        .col-sm-5 {
+          width: 100%;
+        }
+      }
+      .col-lg-7 {
+        width: 100%;
+        padding-left: 0;
+        img {
+          width: 100%;
+        }
+      }
+    
+  }

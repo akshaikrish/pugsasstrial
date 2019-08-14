@@ -1,0 +1,47 @@
+.utility-bar {
+    height: 54px;
+    padding-right: 25px;
+    background: black;
+    margin-top: -16px;
+/*   display: flex; */
+    // a:hover {
+    //     background: transparent;
+    // }
+
+    &__btn {
+        width: 180px;
+        padding-top: 4px;
+        font-size: 16px;
+        height : 53px;
+        line-height: 46px;
+        display: inline-block;
+        /*   float: left; */
+        padding: 0 50px;
+        color: #fafafa;
+        font-weight: 900;
+        border-left: 3px solid white;
+        position: relative;
+        float: right;
+        a:hover {
+            background: #009adf;
+        }
+    
+    }
+}
+
+
+.login-btn {
+    border-right: 3px solid white;
+    background-color: #009adf;
+}
+
+.drpdown {
+    width : 18%;
+
+    &__btn {
+        margin-top: -18px;
+        color: white;
+        font-family: "Avenir Next LT W01 Demi",Arial,sans-serif,AvenirNext;
+        padding-left: 35px;
+    }
+}

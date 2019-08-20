@@ -1,15 +1,18 @@
 nav.navbar.navbar-expand-md.main-nav.navbar-light
-    a.navbar-brand(href='#') 
-        img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/logos/cg-af-primary-rgb-207x95.png', width='auto', height='95', alt='')   
+    a.navbar-brand(href='#')  
+        img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/logos/cg-af-primary-rgb-207x95.png', width='auto', height='119px', alt='')   
     button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
         span.navbar-toggler-icon
     #navbarTogglerDemo01.collapse.navbar-collapse
         .items
             .nav_utility.showMob.hideDesk
-                .col-lg-4.col-md-4
+                .col-lg-4.col-md-4  
                     ul
                         li
-                            a(href="") Other sites: Individual Investors 
+                            a(href="") 
+                                span
+                                    strong Other sites 
+                                | : Individual Investors
                 .col-lg-7.left.col-md-7
                     ul
                         li
@@ -47,9 +50,9 @@ nav.navbar.navbar-expand-md.main-nav.navbar-light
 
 
 //- breadcrumb 
-.hideMob.showDesk
+.hideMob.showDesk 
     nav(aria-label='breadcrumb')
-        ol.breadcrumb(style = "height :93px; background : #FFFFFF")
+        ol.breadcrumb
             li.breadcrumb-item
-                a(style="color: #1D5799; padding-left: 11rem; font-size: 18px;")(href='#') Planning
-            li.breadcrumb-item.active(aria-current='page',style="font-size: 18px;") College Savings
+                a(href='#') Planning
+            li.breadcrumb-item.active(aria-current='page',style="font-size: 18px; color: #333333") College Savings

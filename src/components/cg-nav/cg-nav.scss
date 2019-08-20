@@ -1,26 +1,55 @@
+.breadcrumb {
+    height :93px; 
+    background : #FFFFFF;
+    font-weight: 600;
+    a {
+        color: #1D5799; 
+        padding-left: 11rem; 
+        font-size: 18px;
+    }
+}
+
 .main-nav{
     padding: 0;
     .navbar-brand{
         img{
-            padding-left: 15px;
+            padding-left: 20px;
+            // nav-item
+
         }
     }
-    .items{
-        margin-right: 30px;
-        ul {
-            padding-top: 30px;
-            .nav-link{
-                color: rgb(0, 0,0);
-            }
-        }
+    .navbar-toggler {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: transparent;
     }
     
     #navbarTogglerDemo01{
         text-align: end;
-        justify-content: flex-end;    
-    }
-    button{
-        margin-right: 15px;
+        justify-content: flex-end; 
+        .items{
+            margin-right: 30px;
+            ul {
+                padding-top: 30px;
+                .nav-link{
+                    color: rgb(0, 0,0);
+                }
+            }
+            .col-lg-4.col-md-4 {
+                ul {
+                    position: absolute;
+                    top: -31px;
+                    left: 82px;
+                } 
+            }
+            .col-lg-7.left.col-md-7 {
+                ul {
+                    position: absolute;
+                    top: -31px; 
+                }
+            }
+        }   
     }
     a {
         color: black;

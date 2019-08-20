@@ -4,21 +4,21 @@
     font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
   }
   &__left{ 
-    max-height: 135px;
+    height: 136px;
     background: #00AEAA;
     &:hover {
       background: #007b78;
     }
   }
   &__middle{ 
-    max-height: 135px;
+    height: 136px;
     background: #00294B;
     &:hover {
       background: #000d18;
     }
   }
   &__right{ 
-    max-height: 135px;
+    height: 136px;
     background: #0099E2;
     &:hover {
       background: #0c609c;
@@ -26,25 +26,74 @@
   }
 }
 .new{
-  text-align: center;
+  text-align: left;
+  padding-left: 60px;
   .title{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
     color: #fff !important;
   }
   
   .subtitle{
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
     color: #fff !important;
   }
 }
 
 .row {
-  max-width: 1200px;
+  max-width: 1450px;
   margin-right: auto;
   margin-left: auto;  
+  height: auto;
+}
+@media (min-width: 1500px) {
+  .sticky-top {
+    .row {
+      max-height: 167px;
+      .nav-link {
+        height: 167px;
+        .title {
+          font-size: 28px;
+          font-weight: 600; 
+        }
+        .subtitle{
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
 }
 
+@media (max-width : 1024px) {
+  .sticky-top{
+    .row {
+      height: 105px;
+      .col {
+        max-width: 33.334%;
+        .nav-link {
+          height: 105px;
+          .new {
+            text-align: center;
+            padding-left: 0;
+            .title {
+              font-size: 20px;
+            }
+            .subtitle {
+              font-size: 15px;
+              font-weight: 100;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width : 575 px) {
+
+}
 
     
     

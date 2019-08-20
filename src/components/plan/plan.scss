@@ -5,6 +5,14 @@
     margin-top: 10vh;
     padding: 16px;
 
+    .col-lg-7 {
+        h2 {
+            font-size: 2.3rem;
+            font-weight: 700;
+        }
+
+    }
+
     &__fatherson {
         width: 70vw;
     }
@@ -44,10 +52,23 @@
     
     article{
         text-align: center;
+        max-width: 70%;
+        margin: auto;
+        p {
+            font-size: 0.8rem;
+        }
     }
     .col-sm-6 {
+        text-align: left;
         display: grid;
         margin-top: 20px;
         max-width: 50%;
     }
 }  
+@media (max-width : 585px) {
+    .d-lg-none {
+        .img-fluid {
+            padding-top : 20vh;
+        }
+    }
+}

@@ -1,49 +1,53 @@
 .utility-bar {
     max-width: 100%;
     margin: auto;
-    height: 54px;
+    height: 41px;
     padding-right: 25px;
     background: black;
     margin-top: -16px;
-/*   display: flex; */
-    // a:hover {
-    //     background: transparent;
-    // }
 
     &__btn {
-        width: 180px;
+        width: 188px;
         padding-top: 4px;
-        font-size: 16px;
-        height : 53px;
-        line-height: 46px;
+        font-size: 15px;
+        height : 40px;
+        line-height: 40px;
         display: inline-block;
         /*   float: left; */
         padding: 0 50px;
         color: #fafafa;
-        font-weight: 900;
-        border-left: 3px solid white;
+        font-weight: 700;
+        border-left: 2px solid white;   
         position: relative;
-        float: right;
-        a:hover {
+        float: right; 
+        &:hover {
+            text-decoration: none;
+            color: #fff;
             background: #009adf;
         }
-    
+    }
+    .drpdown {
+        width : 290px;
+        margin-left: 20px;
+        &__btn {
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: -21px;
+            color: white;
+            font-family: "Avenir Next LT W01 Demi",Arial,sans-serif,AvenirNext;
+            padding-left: 15px;
+            &:hover {
+                background: #009adf;
+                color: #fff;
+            }
+        }
     }
 }
 
 
 .login-btn {
-    border-right: 3px solid white;
+    padding-left: 72px;
+    border-right: 2px solid white;
     background-color: #009adf;
 }
 
-.drpdown {
-    width : 18%;
-
-    &__btn {
-        margin-top: -18px;
-        color: white;
-        font-family: "Avenir Next LT W01 Demi",Arial,sans-serif,AvenirNext;
-        padding-left: 35px;
-    }
-}

@@ -1,19 +1,32 @@
 .list {
+    float: none;
     max-width: 100%;
     margin: auto;
     height: auto;
     margin-top: 33vh;
     background: rgb(242,242,242);
     font-size: 21px;
-    color: rgb(102, 102, 102);
-    ol {
-        
+    color: #333333;
+    counter-reset:table-ol;
+    ol {margin: auto;
+        max-width: 100%;
+        display: table;
         line-height: 2;
         font-weight: bold;
-        padding-left: 11vw;
-        li span {
-            font-size: 15px;
-            font-weight: 400;
+        padding-top: 20px;
+        li {
+            counter-increment: table-ol;
+            display: table-row;
+            &:before{
+                display: table-cell;
+                counter-increment: li;
+  			    content: counter(table-ol);
+            }
+            span {
+                font-size: 1.1rem;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+            }
         }
     }
      
@@ -36,6 +49,25 @@
         }
     }
 }
+@media (max-width: 1024px) {
+    .list{
+        ol{
+            padding-left: 5px;
+            padding-top: 20px;
+            li{
+                line-height: 1.33;
+                &:before {
+                    font-size: 15px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
 @media (max-width : 769px) {
     ol {
         background: #ffffff;

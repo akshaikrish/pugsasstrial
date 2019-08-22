@@ -1,0 +1,27 @@
+.dot {
+    background-image: radial-gradient(#625757 3%, #332F2F 15%);
+    background-position: 0 0;
+    background-size: 20px 20px;
+    height: 350px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  
+  .signature {
+      height: 200px;
+      margin: auto;
+      max-width: 60%;
+      background: #fff;
+      display: grid;
+      grid: 50% / auto auto;
+  }
+  .col-3 {
+    height: -webkit-fill-available;
+      &__left {
+          color: #fff;
+          background: #332F2F;
+      }
+      &__right {
+          background: #625757;
+      }
+  }

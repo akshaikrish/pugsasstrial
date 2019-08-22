@@ -70,7 +70,7 @@
 @media (max-width : 1024px) {
   .sticky-top{
     .row {
-      height: 105px;
+      height: auto;
       .col {
         max-width: 33.334%;
         .nav-link {
@@ -91,8 +91,23 @@
     }
   }
 }
-@media (max-width : 575 px) {
-
+@media (max-width : 575px) {
+  .sticky-top{
+    .row {
+      height: auto;
+      .col {
+        max-width: 33.334%;
+        .nav-link {
+          height: 75px;
+          .new {
+            .title {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
     

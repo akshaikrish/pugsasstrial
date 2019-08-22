@@ -56,9 +56,15 @@
         font-weight: bold;
         font-size: 14px;
     }
-    li:hover {
-        background-color: #009adf;
-        color: white;
+    li{
+        background-color: #FFFFFF;
+        -webkit-tap-highlight-color: #666666;
+        &:hover {
+            transition: background-color 1s ease-in;
+            background-color: #009adf;
+            color: white;
+        }
+        
     }
     .search{
         input {

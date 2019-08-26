@@ -1,0 +1,22 @@
+section.popup
+    ul.popup__ul  
+        li
+            h3.popup__ul--h3 Watch the video presentation
+        li
+            .bs-example
+                // Button HTML (to Trigger Modal)
+                a.popup__ul--btn(href='#myModal' data-toggle='modal')
+                    | &#9656
+                // Modal HTML
+                #myModal.modal.fade
+                    .modal-dialog
+                        .modal-content
+                            .modal-header
+                                button.close(type='button' data-dismiss='modal' aria-hidden='true') &times;
+                                h4.modal-title YouTube Video
+                            .modal-body
+                                iframe#cartoonVideo(width="460" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1&mute=1" allow="autoplay" frameborder="0" allowfullscreen="")
+                            
+        li
+            p.popup__ul--p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        

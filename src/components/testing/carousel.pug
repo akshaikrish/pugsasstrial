@@ -1,0 +1,17 @@
+#carousel.carousel.slide.carousel-fade(data-ride='carousel')
+    ol.carousel-indicators
+        li.active(data-target='#carousel' data-slide-to='0')
+        li(data-target='#carousel' data-slide-to='1')
+        li(data-target='#carousel' data-slide-to='2')
+        li(data-target='#carousel' data-slide-to='3')
+    // Carousel items
+    .carousel-inner
+        .active.item
+        .item
+        .item
+        .item
+    // Carousel nav
+    a.carousel-control.left(href='#carousel' data-slide='prev')
+        span.glyphicon.glyphicon-menu-left
+    a.carousel-control.right(href='#carousel' data-slide='next')
+        span.glyphicon.glyphicon-menu-right
